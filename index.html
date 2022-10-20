@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>반응형 홈페이지</title>
-    <!-- 기본 css : 공통으로 적용할 css 작성, 마진 초기화 등 -->
+    <!-- 기본 css : 마진 초기화 및 장치에 상관없이 공통으로 적용할 css 작성 -->
     <link rel="stylesheet" href="./css/default.css" />
 
     <!-- 외부 css 링크에 media queries 조건을 입력하면 조건에 따라 참조할 css 파일을 정할 수 있다. 가장 추천하는 방식 -->
@@ -40,5 +40,33 @@
       </div>
       <a href="#" class="detail-btn">자세히보기</a>
     </div>
+    <main>
+      <div class="container">
+        <article>
+          <h2>카페 소개</h2>
+          <ul>
+            <li>영업시간</li>
+            <li>휴무일</li>
+          </ul>
+        </article>
+        <article>
+          <h2>오시는 길</h2>
+          <ul>
+            <li>주소</li>
+            <li>전화번호</li>
+          </ul>
+        </article>
+      </div>
+      <div id="choice">
+        <h2>이달의 추천</h2>
+        <p>제품 이름</p>
+        <ol>
+          <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+          <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+          <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+        </ol>
+      </div>
+    </main>
+    <footer>footer</footer>
   </body>
 </html>

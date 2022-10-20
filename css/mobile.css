@@ -16,7 +16,7 @@ header nav a {
   margin: 0 1em;
 }
 
-/* main */
+/* title */
 #main-title {
   background: #0999;
   height: 400px;
@@ -32,14 +32,24 @@ header nav a {
   background-size: cover;
   background-position: center;
 }
-.title-group {
-  text-align: center;
-  color: #fff;
-  text-shadow: 0 3px 5px #000;
-  margin-bottom: 30px;
-}
 .detail-btn {
-  text-align: center;
-  background: #fff;
-  padding: 8px 100px;
+  width: 100%;
+  padding: 8px 20px;
 }
+
+/* main */
+main .container article {
+  border: 1px solid #ccc;
+  background: #fff;
+  padding: 40px;
+}
+main .container article:last-child {
+  background: #aabdbf;
+}
+
+#choice {
+  padding: 40px;
+  background: #fff;
+}
+
+/* footer */

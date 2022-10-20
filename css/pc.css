@@ -19,7 +19,7 @@ header nav a {
   margin: 0 2em;
 }
 
-/* main */
+/* title */
 #main-title {
   background: #0999;
   width: 100%;
@@ -30,16 +30,37 @@ header nav a {
   flex-wrap: wrap;
   justify-content: flex-start;
   align-items: flex-start; */
-  padding: 50px;
+  padding: 100px 50px;
   background-image: url(../images/title-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
-.title-group {
-  width: 100%;
-  color: #fff;
-  text-align: left;
-  text-shadow: 0 3px 5px #000;
-  margin-bottom: 50px;
+
+/* main */
+main {
+  max-width: 1440px;
+  margin: 0 auto;
 }
+main .container {
+  display: flex;
+}
+main .container article {
+  width: 50%;
+  border: 1px solid #ccc;
+  background: #fff;
+  padding: 40px;
+}
+main .container article:last-child {
+  background: #aabdbf;
+}
+ul li {
+  margin-bottom: 10px;
+}
+
+#choice {
+  padding: 40px;
+  background: #fff;
+}
+
+/* footer */
