@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>반응형 홈페이지</title>
+    <!-- 기본 css : 공통으로 적용할 css 작성, 마진 초기화 등 -->
+    <link rel="stylesheet" href="./css/default.css" />
+
+    <!-- 외부 css 링크에 media queries 조건을 입력하면 조건에 따라 참조할 css 파일을 정할 수 있다. 가장 추천하는 방식 -->
+    <!-- pc css -->
+    <link
+      rel="stylesheet"
+      href="./css/pc.css"
+      media="screen and (min-width: 768px)"
+    />
+    <!-- mobile css -->
+    <link
+      rel="stylesheet"
+      href="./css/mobile.css"
+      media="screen and (max-width: 768px)"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="#">카페 소개</a>
+        <a href="#">오시는 길</a>
+        <a href="#">이달의 추천</a>
+      </nav>
+    </header>
+    <div id="main-title">
+      <div class="title-group">
+        <h1>cafe MIN.</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus,
+          a iste.
+        </p>
+      </div>
+      <a href="#" class="detail-btn">자세히보기</a>
+    </div>
+  </body>
+</html>
