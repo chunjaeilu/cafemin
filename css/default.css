@@ -26,6 +26,10 @@ p {
   margin-bottom: 1em;
 }
 
+body {
+  font-family: "Noto Sans KR", sans-serif;
+}
+
 /* title */
 .title-group {
   color: #fff;
